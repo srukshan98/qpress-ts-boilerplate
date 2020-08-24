@@ -1,21 +1,13 @@
-# node-ts-boilerplate
+# qpress-ts-boilerplate
 
-Minimal boilerplate for Node.js typescript projects
+Minimal boilerplate for Quick Express Node.js typescript projects
 
 Included:
 
 - Node.js
 - Typescript
-- Koa
-- Koa Router
 - Nodemon
-- Supertest
-
-Cloning:
-
-```bash
-git clone git@github.com:ivpusic/node-ts-boilerplate.git
-```
+- QPress
 
 ## Usage
 
@@ -23,12 +15,6 @@ Start server (port 3000):
 
 ```bash
 npm start
-```
-
-Run tests:
-
-```bash
-npm test
 ```
 
 ## License

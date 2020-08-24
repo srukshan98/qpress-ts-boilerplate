@@ -1,11 +1,11 @@
-import app from './app';
+import { AppModule } from './app/app.module';
+import qpress, { QExpress, LogLevelType } from '@qpress/core';
 
-async function main() {
-  const port = 3000;
-  app.listen(port);
-  console.info(`app running on port ${port}`);
-}
-
-main().catch((e) => {
-  console.log('error detected', e);
+var app: QExpress = qpress({
+    JsonParser: true,
+    LogLevel: LogLevelType.Verbose
 });
+
+app.attachModule(AppModule);
+
+app.runApp();
