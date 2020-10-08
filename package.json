@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Minimal boilerplate for Quick Express Node.js typescript projects",
   "scripts": {
-    "build": "tsc",
+		"webpack": "webpack",
+		"build": "npm run webpack -- --mode production",
     "start": "nodemon -e ts --exec ts-node src/index.ts"
   },
   "keywords": [],
@@ -19,6 +20,10 @@
     "nodemon": "^1.12.1",
     "ts-node": "^3.3.0",
     "tslint": "^5.20.1",
-    "typescript": "^2.6.1"
+		"ts-loader": "^8.0.4",
+		"webpack": "^4.44.2",
+		"webpack-cli": "^3.3.12",
+		"webpack-node-externals": "^2.5.2",
+		"typescript": "^3.4.3"
   }
 }
