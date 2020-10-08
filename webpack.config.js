@@ -6,7 +6,7 @@ module.exports = {
   mode: 'production',
   devtool: false,
   optimization: {
-    minimize: true
+    minimize: false
   },
   entry: './src/index.ts',
   output: {
