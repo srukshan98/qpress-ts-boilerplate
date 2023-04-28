@@ -11,7 +11,7 @@
   "author": "Sachith Rukshan",
   "license": "MIT",
   "dependencies": {
-    "@qpress/core": "^0.1.0"
+    "@qpress/core": "^0.2.2"
   },
   "devDependencies": {
     "@types/node": "^8.0.53",
